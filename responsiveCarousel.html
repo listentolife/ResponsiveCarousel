@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tronfy.com/ProductDetail/TP60</title>
+	<link rel="stylesheet" href="./assets/bootstrap.css">
+	<link rel="stylesheet" href="./assets/CarouselStyle.css">
+</head>
+<body>
+
+	<div class="productWrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1">
+					<h3>简单的商品轮播图(基于Bootstrap)</h3>
+				</div>
+				<div class="col-md-6 col-md-offset-0 col-xs-10 col-xs-offset-1">
+					<div class="row">
+						<div class="col-md-12" id="bigPhoto">
+							<a href="#" id="bPrve"><span class="glyphicon glyphicon-chevron-left"></span></a>
+							<img id="bigPhotoSrc" src="./img/1_BigImage.jpg" border="0" alt="" style="width: 100%;height: 100%">
+							<a href="#" id="bNext"><span class="glyphicon glyphicon-chevron-right"></span></a>
+							<!-- Indicators -->
+							<ol class="carousel-indicators" id="xsIndicators"></ol>
+						</div>
+						<div id="smallPhotos" class="col-md-12 hidden-xs">
+							<div class="row">
+								<a href="#" id="sPrve" class="col-md-1 col-sm-1"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    							<ul id="smallPhotosList" class="col-md-10 col-sm-10"></ul>
+    							<a href="#" id="sNext" class="col-md-1 col-sm-1"><span class="glyphicon glyphicon-chevron-right"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./js/jquery-3.1.1.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/responsiveCarousel.js"></script>
+</body>
+</html>
