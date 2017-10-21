@@ -1,0 +1,88 @@
+body {
+	position: relative;
+	height: 100%;
+}
+
+img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* Carousel */
+
+#bigPhoto {
+	position: relative;
+	margin: 20px 0;
+}
+
+#bPrve, #bNext {
+	position: absolute;
+	top: 0;
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	color: rgba(0,0,0,0.5);
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+} 
+
+#bPrve {
+	left: 15px;
+}
+
+#bNext {
+	right: 15px;
+}
+
+#bPrve span, #bNext span {
+	display: block;
+	position: relative;
+	top: 50%;
+	margin-top: -15px;
+}
+
+@media (min-width: 768px) {
+	#bigPhoto .carousel-indicators {
+		display: none;
+	}
+}
+
+#smallPhotosList {
+	padding-right: 0;
+}
+
+#sPrve, #sNext {
+	display: block;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 10px;
+	color: rgba(0,0,0,0.5);
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+#sPrve span, #sNext span {
+	margin-top: 17px;
+}
+
+#smallPhotosList {
+	list-style-type: none;
+}
+
+.smallPhotos {
+	float: left;
+	width: 16.6666664%;
+	height: 16.6666664%;
+}
+
+.smallPhotos img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
